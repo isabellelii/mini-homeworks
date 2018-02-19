@@ -1,0 +1,4 @@
+We are using portgresSQL and not SQLits because:
+PostgresSQL comes with user management and SQLite does not.
+You can’t multi write on SQLite because it’s only allow one user to write at the same time and 
+that you can do with postgresSQL.
